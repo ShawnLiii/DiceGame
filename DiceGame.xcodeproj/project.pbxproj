@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D620B772446AC1E00BCBAD4 /* MagicBallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D620B762446AC1E00BCBAD4 /* MagicBallViewController.swift */; };
+		3D620B792446B62100BCBAD4 /* Xylophone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D620B782446B62100BCBAD4 /* Xylophone.storyboard */; };
+		3D620BA12446BD9A00BCBAD4 /* note3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D620B9A2446BD9A00BCBAD4 /* note3.wav */; };
+		3D620BA22446BD9A00BCBAD4 /* note1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D620B9B2446BD9A00BCBAD4 /* note1.wav */; };
+		3D620BA32446BD9A00BCBAD4 /* note2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D620B9C2446BD9A00BCBAD4 /* note2.wav */; };
+		3D620BA42446BD9A00BCBAD4 /* note6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D620B9D2446BD9A00BCBAD4 /* note6.wav */; };
+		3D620BA52446BD9A00BCBAD4 /* note4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D620B9E2446BD9A00BCBAD4 /* note4.wav */; };
+		3D620BA62446BD9A00BCBAD4 /* note5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D620B9F2446BD9A00BCBAD4 /* note5.wav */; };
+		3D620BA72446BD9A00BCBAD4 /* note7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D620BA02446BD9A00BCBAD4 /* note7.wav */; };
+		3D620BA92446BDCE00BCBAD4 /* XylophoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D620BA82446BDCE00BCBAD4 /* XylophoneViewController.swift */; };
 		3DEAFC7B24460B9D00A2DBF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEAFC7A24460B9D00A2DBF7 /* AppDelegate.swift */; };
 		3DEAFC7D24460B9D00A2DBF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEAFC7C24460B9D00A2DBF7 /* SceneDelegate.swift */; };
 		3DEAFC7F24460B9D00A2DBF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEAFC7E24460B9D00A2DBF7 /* ViewController.swift */; };
@@ -16,6 +26,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D620B762446AC1E00BCBAD4 /* MagicBallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicBallViewController.swift; sourceTree = "<group>"; };
+		3D620B782446B62100BCBAD4 /* Xylophone.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Xylophone.storyboard; sourceTree = "<group>"; };
+		3D620B9A2446BD9A00BCBAD4 /* note3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note3.wav; sourceTree = "<group>"; };
+		3D620B9B2446BD9A00BCBAD4 /* note1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note1.wav; sourceTree = "<group>"; };
+		3D620B9C2446BD9A00BCBAD4 /* note2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note2.wav; sourceTree = "<group>"; };
+		3D620B9D2446BD9A00BCBAD4 /* note6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note6.wav; sourceTree = "<group>"; };
+		3D620B9E2446BD9A00BCBAD4 /* note4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note4.wav; sourceTree = "<group>"; };
+		3D620B9F2446BD9A00BCBAD4 /* note5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note5.wav; sourceTree = "<group>"; };
+		3D620BA02446BD9A00BCBAD4 /* note7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note7.wav; sourceTree = "<group>"; };
+		3D620BA82446BDCE00BCBAD4 /* XylophoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneViewController.swift; sourceTree = "<group>"; };
 		3DEAFC7724460B9D00A2DBF7 /* DiceGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DEAFC7A24460B9D00A2DBF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DEAFC7C24460B9D00A2DBF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +57,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D620B992446BD7500BCBAD4 /* Sound Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D620B9B2446BD9A00BCBAD4 /* note1.wav */,
+				3D620B9C2446BD9A00BCBAD4 /* note2.wav */,
+				3D620B9A2446BD9A00BCBAD4 /* note3.wav */,
+				3D620B9E2446BD9A00BCBAD4 /* note4.wav */,
+				3D620B9F2446BD9A00BCBAD4 /* note5.wav */,
+				3D620B9D2446BD9A00BCBAD4 /* note6.wav */,
+				3D620BA02446BD9A00BCBAD4 /* note7.wav */,
+			);
+			name = "Sound Files";
+			path = ..;
+			sourceTree = "<group>";
+		};
 		3DEAFC6E24460B9D00A2DBF7 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +98,10 @@
 				3DEAFC8324460B9E00A2DBF7 /* Assets.xcassets */,
 				3DEAFC8524460B9E00A2DBF7 /* LaunchScreen.storyboard */,
 				3DEAFC8824460B9E00A2DBF7 /* Info.plist */,
+				3D620B762446AC1E00BCBAD4 /* MagicBallViewController.swift */,
+				3D620B782446B62100BCBAD4 /* Xylophone.storyboard */,
+				3D620B992446BD7500BCBAD4 /* Sound Files */,
+				3D620BA82446BDCE00BCBAD4 /* XylophoneViewController.swift */,
 			);
 			path = DiceGame;
 			sourceTree = "<group>";
@@ -125,9 +164,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D620BA72446BD9A00BCBAD4 /* note7.wav in Resources */,
+				3D620BA62446BD9A00BCBAD4 /* note5.wav in Resources */,
+				3D620BA52446BD9A00BCBAD4 /* note4.wav in Resources */,
+				3D620BA22446BD9A00BCBAD4 /* note1.wav in Resources */,
+				3D620BA42446BD9A00BCBAD4 /* note6.wav in Resources */,
+				3D620BA32446BD9A00BCBAD4 /* note2.wav in Resources */,
 				3DEAFC8724460B9E00A2DBF7 /* LaunchScreen.storyboard in Resources */,
+				3D620B792446B62100BCBAD4 /* Xylophone.storyboard in Resources */,
 				3DEAFC8424460B9E00A2DBF7 /* Assets.xcassets in Resources */,
 				3DEAFC8224460B9D00A2DBF7 /* Main.storyboard in Resources */,
+				3D620BA12446BD9A00BCBAD4 /* note3.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +186,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DEAFC7F24460B9D00A2DBF7 /* ViewController.swift in Sources */,
+				3D620BA92446BDCE00BCBAD4 /* XylophoneViewController.swift in Sources */,
 				3DEAFC7B24460B9D00A2DBF7 /* AppDelegate.swift in Sources */,
 				3DEAFC7D24460B9D00A2DBF7 /* SceneDelegate.swift in Sources */,
+				3D620B772446AC1E00BCBAD4 /* MagicBallViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +336,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2NAJ323R5S;
 				INFOPLIST_FILE = DiceGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +355,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2NAJ323R5S;
 				INFOPLIST_FILE = DiceGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
